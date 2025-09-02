@@ -1,4 +1,26 @@
 .icon {
-  height:30px;
-  
+  height: 30px;
+}
+
+.hero-section {
+  position: relative;
+  height: 82vh;                 
+  margin: 0 2%;                  
+  border-radius: 15px;          
+  overflow: hidden;              
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('../img/hero-background.png') no-repeat center center;
+  background-size: cover;        
+  filter: brightness(0.3); 
+  z-index: -1;                   
 }
