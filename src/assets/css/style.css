@@ -19,7 +19,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: url('../img/hero-background.png') no-repeat center center;
+  background: url('../img/hero-background.png') no-repeat center;
   background-size: cover;        
   filter: brightness(0.3); 
   z-index: -1;                   
@@ -39,4 +39,28 @@
 
 .sticky-top {
   top: 50px; /* ajusta conforme altura do seu navbar */
+}
+
+.mission-section {
+  position: relative;
+  color: #333;
+  background: url("../img/mission-section.png") no-repeat center center;
+  background-size: cover;
+  height: 50vh;    
+}
+
+.mission-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.mission-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.impact-section {
+  background-color: #e8fbe8;
 }
