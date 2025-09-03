@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrend</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../../public/ecotrend_favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo" style="height:30px; margin-right:8px;">
+      <span class="fw-bold">EcoTrend</span>
+    </a>
+
+    <!-- Botão mobile -->
+    <button title="buttom" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav gap-4">
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Produtos</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Sobre nós</a></li> 
+        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Contato</a></li>
+      </ul>
+    </div>
+
+    <!-- Ícones à direita -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="#"><i class="bi bi-search fs-5"><img src="../assets/img/icons_header/search_icon.png" alt="" style="height:30px; margin-right:8px;"></i></a>
+      <a href="#"><i class="bi bi-cart fs-5"><img src="../assets/img/icons_header/cart_icon.png" alt="" style="height:30px; margin-right:8px;"></i></a>
+      <img src="../assets/img/icons_header/user-icon.png" class="rounded-circle" alt="Profile" style="height:30px; margin-right:8px;">
+    </div>
+  </div>
+</nav>
+
+<section class="py-5">
+  <div class="container">
+    
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb" class="mb-3">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Produtos</li>
+      </ol>
+    </nav>
+    
+    <h3 class="fw-bold mb-4">Produtos</h3>
+    
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 mb-4 ">
+        <aside class="sticky-top">
+            <h6 class="fw-semibold mb-3">Categorias</h6>
+            <div class="d-flex flex-wrap gap-2 mb-4">
+                <button class="btn btn-sm btn-success rounded-pill">Tudo</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Vestimenta</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Beleza</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Bens domésticos</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Green Tech</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Ofertas</button>
+            </div>
+            
+            <h6 class="fw-semibold mb-3">Ordenar por</h6>
+            <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Destaque</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Menor ao Maior</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Maior ao Menor</button>
+                <button class="btn btn-sm btn-outline-secondary rounded-pill">Mais recentes</button>
+            </div>
+        </div>
+    </aside>
+        
+      <!-- Produtos -->
+      <div class="col-md-9">
+        <div class="row g-4">
+          
+          <!-- Produto -->
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/organic-cotton-tshirt.png" class="card-img-top rounded-3" alt="Organic Cotton T-Shirt">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Camiseta de algodão orgânico</h6>
+                <p class="fw-semibold">$25</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/Bamboo_Toothbrush.png" class="card-img-top rounded-3" alt="Natural Bamboo Toothbrush">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Escova de dentes de bambu natural</h6>
+                <p class="fw-semibold">$5</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/recycled_glass_bottle.png" class="card-img-top rounded-3" alt="Recycled Glass Water Bottle">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Garrafa de água de vidro reciclado</h6>
+                <p class="fw-semibold">$15</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/solar_powered_charger.png" class="card-img-top rounded-3" alt="Solar-Powered Phone Charger">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Carregador de telefone movido a energia solar</h6>
+                <p class="fw-semibold">$40</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/Eco–Friendly_Laundry_Detergent.png" class="card-img-top rounded-3" alt="Eco-Friendly Laundry Detergent">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Detergente para roupa ecológico</h6>
+                <p class="fw-semibold">$12</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/Sustainable_Cork_Yoga_Mat.png" class="card-img-top rounded-3" alt="Sustainable Cork Yoga Mat">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Tapete de ioga de cortiça sustentável</h6>
+                <p class="fw-semibold">$35</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/biodegradable_phone_case.png" class="card-img-top rounded-3" alt="Sustainable Cork Yoga Mat">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Capa de celular biodegradávelt</h6>
+                <p class="fw-semibold">$35</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/upcycled_denim_tote_bag.png" class="card-img-top rounded-3" alt="Sustainable Cork Yoga Mat">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Eco Tote Bag de Jeans Upcycled</h6>
+                <p class="fw-semibold">$35</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="card border-0 h-100">
+              <img src="../assets/img/products/plant_based_skincare_set.png" class="card-img-top rounded-3" alt="Sustainable Cork Yoga Mat">
+              <div class="card-body px-0">
+                <h6 class="mb-1">Conjunto de skincare à base de plantas</h6>
+                <p class="fw-semibold">$35</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
