@@ -2,6 +2,11 @@
   height: 30px;
 }
 
+.logo-img {
+  height: 30px;
+  margin-right: 8px;
+}
+
 .hero-section {
   position: relative;
   height: 82vh;                 
@@ -111,4 +116,32 @@ details[open] summary::after {
   margin-top: 0.5rem;
   line-height: 1.4;
   color: #555;
+}
+
+.input-qtd {
+  width: 80px;
+}
+
+.cart-section {
+  min-height: 65dvh;
+}
+
+.five-stars {
+  width: 40%
+}
+
+.four-stars {
+  width: 30%
+}
+
+.three-stars {
+  width: 15%
+}
+
+.two-stars {
+  width: 10%
+}
+
+.one-star {
+  width: 5%
 }

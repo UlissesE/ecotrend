@@ -16,8 +16,7 @@
         <div class="container">
             <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center" href="../../../index.html">
-                <img src="../../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo"
-                    style="height:30px; margin-right:8px;">
+                <img src="../../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo" class="logo-img">
                 <span class="fw-bold">EcoTrend</span>
             </a>
 
@@ -39,13 +38,14 @@
 
             <!-- Ícones à direita -->
             <div class="d-flex align-items-center gap-4">
-                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                <a title="busca" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
                         class="bi bi-search" viewBox="0 0 16 16">
                         <path
                             d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
                     </svg></a>
-                <a href="../shopping-cart.html" class="text-decoration-none"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="30" height="30" fill="black" class="bi bi-bag" viewBox="0 0 16 16">
+                <a title="sacola" href="../shopping-cart.html" class="text-decoration-none"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag"
+                        viewBox="0 0 16 16">
                         <path
                             d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
                     </svg></a>
@@ -155,35 +155,35 @@
                     <div class="d-flex align-items-center mb-1">
                         <small class="me-2">5 estrelas</small>
                         <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning" style="width: 40%"></div>
+                            <div class="progress-bar bg-warning five-stars"></div>
                         </div>
                         <small class="ms-2">40%</small>
                     </div>
                     <div class="d-flex align-items-center mb-1">
                         <small class="me-2">4 estrelas</small>
                         <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning" style="width: 30%"></div>
+                            <div class="progress-bar bg-warning four-stars"></div>
                         </div>
                         <small class="ms-2">30%</small>
                     </div>
                     <div class="d-flex align-items-center mb-1">
                         <small class="me-2">3 estrelas</small>
                         <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning" style="width: 15%"></div>
+                            <div class="progress-bar bg-warning three-stars"></div>
                         </div>
                         <small class="ms-2">15%</small>
                     </div>
                     <div class="d-flex align-items-center mb-1">
                         <small class="me-2">2 estrelas</small>
                         <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning" style="width: 10%"></div>
+                            <div class="progress-bar bg-warning two-stars"></div>
                         </div>
                         <small class="ms-2">10%</small>
                     </div>
                     <div class="d-flex align-items-center">
                         <small class="me-2">1 estrela</small>
                         <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning" style="width: 5%"></div>
+                            <div class="progress-bar bg-warning one-star"></div>
                         </div>
                         <small class="ms-2">5%</small>
                     </div>
@@ -283,7 +283,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-dark text-light pt-5 pb-3 mt-5 fixed-bottom position-relative">
+    <footer class="bg-dark text-light pt-5 pb-3 mt-5">
         <div class="container">
             <div class="row">
                 <!-- Coluna 1 -->
@@ -296,13 +296,13 @@
                 <div class="col-md-3 mb-4">
                     <h5 class="fw-bold">Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="../pages/products.html" class="text-light text-decoration-none small">Produtos</a>
+                        <li><a href="../products.html" class="text-light text-decoration-none small">Produtos</a>
                         </li>
-                        <li><a href="#" class="text-light text-decoration-none small">Carrinho</a></li>
-                        <li><a href="../pages/shopping-cart.html" class="text-light text-decoration-none small">Sobre
+                        <li><a href="../shopping-cart.html" class="text-light text-decoration-none small">Carrinho</a>
+                        </li>
+                        <li><a href="../our-mission.html" class="text-light text-decoration-none small">Sobre
                                 nós</a></li>
-                        <li><a href="../pages/our-mission.html#faq"
-                                class="text-light text-decoration-none small">FAQ</a></li>
+                        <li><a href="../our-mission.html#faq" class="text-light text-decoration-none small">FAQ</a></li>
                     </ul>
                 </div>
 
@@ -310,12 +310,12 @@
                 <div class="col-md-3 mb-4">
                     <h5 class="fw-bold">Siga-nos nas redes</h5>
                     <div class="d-flex gap-3">
-                        <a href="#" class="text-light fs-5"><i class="bi bi-facebook"><img
-                                    src="../assets/img/icons/facebook-icon.png" alt="" class="icon"></i></a>
-                        <a href="#" class="text-light fs-5"><i class="bi bi-twitter"><img
-                                    src="../assets/img/icons/twitter-icon.png" alt="" class="icon"></i></a>
-                        <a href="#" class="text-light fs-5"><i class="bi bi-instagram"><img
-                                    src="../assets/img/icons/instagram-icon.png" alt="" class="icon"></i></a>
+                        <a title="facebook" href="#" class="text-light fs-5"><i class="bi bi-facebook"><img
+                                    src="../../assets/img/icons/facebook-icon.png" alt="" class="icon"></i></a>
+                        <a title="twitter" href="#" class="text-light fs-5"><i class="bi bi-twitter"><img
+                                    src="../../assets/img/icons/twitter-icon.png" alt="" class="icon"></i></a>
+                        <a title="instagram" href="#" class="text-light fs-5"><i class="bi bi-instagram"><img
+                                    src="../../assets/img/icons/instagram-icon.png" alt="" class="icon"></i></a>
                     </div>
                 </div>
 
