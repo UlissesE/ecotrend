@@ -68,6 +68,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
   <div class="carousel-inner">
     <!-- Slide 1 -->
@@ -99,6 +100,16 @@
         <a href="./src/pages/products.html" class="btn btn-success btn-lg">Olhe os presentes em promoção</a>
       </div>
     </div>
+
+    <div class="carousel-item">
+      <img src="./src/assets/img/shop_by_category/beauty-wellness.png" class="d-block w-100 hero-section-img" alt="Sustainable Gifts">
+      <div class="carousel-caption text-start">
+        <h1 class="fw-bold display-4">A Promoção está no ar</h1>
+        <p>Confira alguns dos nossos itens no precinho para você!</p>
+        <a href="./src/pages/products.html" class="btn btn-success btn-lg">Clique e Veja</a>
+      </div>
+    </div>
+
   </div>
 
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -111,57 +122,224 @@
   </button>
 </section>
 
-  <section class="container my-5" id="destaques">
-    <h3 class="fw-bold mb-4">Produtos em destaque</h3>
-    <div class="row g-4">
-      <div class="col-12 col-sm-6 col-md-3">
-        <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/escova_de_bambu.html"
-          title="Escova de dentes de bambu">
-          <img src="./src/assets/img/Bamboo_Toothbrush.png" class="card-img-top rounded-3" alt="Bamboo Toothbrush">
-          <div class="card-body px-0">
-            <h6 class="card-title mb-1">Escova de dentes de bambu</h6>
-            <p class="text-muted small mb-1">Cuidados bucais sustentáveis</p>
-            <p class="fw-bold">R$5,99</p>
+<section class="container my-5" id="destaques">
+  <h3 class="fw-bold mb-4">Produtos em destaque</h3>
+
+  <div id="carouselProdutos" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/escova_de_bambu.html"
+              title="Escova de dentes de bambu">
+              <img src="./src/assets/img/Bamboo_Toothbrush.png" class="card-img-top rounded-3" alt="Escova de dentes de bambu">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Escova de dentes de bambu</h6>
+                <p class="text-muted small mb-1">Cuidados bucais sustentáveis</p>
+                <p class="fw-bold">R$4,99</p>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/sacola_algodao_organico.html"
-          title="Sacola de algodão orgânico">
-          <img src="./src/assets/img/Organic_Cotton_Tote_Bag.png" class="card-img-top rounded-3"
-            alt="Organic Cotton Tote Bag">
-          <div class="card-body px-0">
-            <h6 class="card-title mb-1">Sacola de algodão orgânico</h6>
-            <p class="text-muted small mb-1">Durável e ecológico</p>
-            <p class="fw-bold">R$19,99</p>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/sacola_algodao_organico.html"
+              title="Sacola de algodão orgânico">
+              <img src="./src/assets/img/Organic_Cotton_Tote_Bag.png" class="card-img-top rounded-3" alt="Sacola de algodão orgânico">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Sacola de algodão orgânico</h6>
+                <p class="text-muted small mb-1">Durável e ecológico</p>
+                <p class="fw-bold">R$19,99</p>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/garrafa_de_aco_inoxidavel.html"
-          title="Garrafa de água de aço inoxidável">
-          <img src="./src/assets/img/Stainless_Steel_Water_Bottle.png" class="card-img-top rounded-3"
-            alt="Stainless Steel Water Bottle">
-          <div class="card-body px-0">
-            <h6 class="card-title mb-1">Garrafa de água de aço inoxidável</h6>
-            <p class="text-muted small mb-1">Mantenha-se hidratado de forma sustentável</p>
-            <p class="fw-bold">R$24,99</p>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/garrafa_de_aco_inoxidavel.html"
+              title="Garrafa de água de aço inoxidável">
+              <img src="./src/assets/img/Stainless_Steel_Water_Bottle.png" class="card-img-top rounded-3" alt="Garrafa de água de aço inoxidável">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Garrafa de água de aço inoxidável</h6>
+                <p class="text-muted small mb-1">Mantenha-se hidratado de forma sustentável</p>
+                <p class="fw-bold">R$14,99</p>
+              </div>
+            </a>
           </div>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-3">
-        <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/vela_de_cera_de_soja.html"
-          title="Vela de cera de soja">
-          <img src="./src/assets/img/Soy_Wax_Candle.png" class="card-img-top rounded-3" alt="Soy Wax Candle">
-          <div class="card-body px-0">
-            <h6 class="card-title mb-1">Vela de cera de soja</h6>
-            <p class="text-muted small mb-1">Feito à mão com aromas naturais</p>
-            <p class="fw-bold">R$15,99</p>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/vela_de_cera_de_soja.html"
+              title="Vela de cera de soja">
+              <img src="./src/assets/img/Soy_Wax_Candle.png" class="card-img-top rounded-3" alt="Vela de cera de soja">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Vela de cera de soja</h6>
+                <p class="text-muted small mb-1">Feito à mão com aromas naturais</p>
+                <p class="fw-bold">R$15,99</p>
+              </div>
+            </a>
           </div>
-        </a>
+        </div>
       </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/skincare_a_base_de_plantas.html"
+              title="skincare_a_base_de_plantas">
+              <img src="./src/assets/img/products/plant_based_skincare_set.png" class="card-img-top rounded-3" alt="Vela de cera de soja">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Conjunto de skincare à base de plantas</h6>
+                <p class="text-muted small mb-1">Cuide-se de forma ecológica</p>
+                <p class="fw-bold">R$45,99</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/camiseta_de_algodao_organico.html"
+              title="Vela de cera de soja">
+              <img src="./src/assets/img/products/organic-cotton-tshirt.png" class="card-img-top rounded-3" alt="Camiseta de algodão orgânico">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Camiseta de algodão orgânico</h6>
+                <p class="text-muted small mb-1">Durável e ecológico</p>
+                <p class="fw-bold">R$24,99</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/tapete_de_ioga_sustentavel.html"
+              title="Tapete de ioga de cortiça sustentável">
+              <img src="./src/assets/img/products/Sustainable_Cork_Yoga_Mat.png" class="card-img-top rounded-3" alt="Camiseta de algodão orgânico">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Tapete de ioga de cortiça sustentável</h6>
+                <p class="text-muted small mb-1">Exercite-se naturalmente</p>
+                <p class="fw-bold">R$35,99</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/escova_de_bambu.html"
+              title="Escova de dentes de bambu">
+              <img src="./src/assets/img/Bamboo_Toothbrush.png" class="card-img-top rounded-3" alt="Escova de dentes de bambu">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Escova de dentes de bambu</h6>
+                <p class="text-muted small mb-1">Cuidados bucais sustentáveis</p>
+                <p class="fw-bold">R$4,99</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </section>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProdutos" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselProdutos" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</section>
+
+<section class="container my-5" id="promoção">
+  <h3 class="fw-bold mb-4">Produtos em destaque</h3>
+
+  <div id="carouselPromocoes" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/sacola_algodao_organico.html"
+            title="Sacola de algodão orgânico">
+            <img src="./src/assets/img/Organic_Cotton_Tote_Bag.png" class="card-img-top rounded-3" alt="Sacola de algodão orgânico">
+            <div class="card-body px-0">
+              <h6 class="card-title mb-1">Sacola de algodão orgânico</h6>
+              <p class="text-muted small mb-1">Durável e ecológico</p>
+              <p class="fw-bold">R$19,99</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/escova_de_bambu.html"
+            title="Escova de dentes de bambu">
+            <img src="./src/assets/img/Bamboo_Toothbrush.png" class="card-img-top rounded-3" alt="Escova de dentes de bambu">
+            <div class="card-body px-0">
+              <h6 class="card-title mb-1">Escova de dentes de bambu</h6>
+              <p class="text-muted small mb-1">Cuidados bucais sustentáveis</p>
+              <p class="fw-bold">R$4,99</p>
+            </div>
+          </a>
+        </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/garrafa_de_vidro_reciclado.html"
+              title="Garrafa de água de vidro reciclado">
+              <img src="./src/assets/img/products/recycled_glass_bottle.png" class="card-img-top rounded-3" alt="Garrafa de água de viro reciclado">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Garrafa de água de vidro reciclado</h6>
+                <p class="text-muted small mb-1">Hidratação sustentável é a chave</p>
+                <p class="fw-bold">R$24,99</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/carregador_energia_solar.html"
+              title="Vela de cera de soja">
+              <img src="./src/assets/img/products/solar_powered_charger.png" class="card-img-top rounded-3" alt="Carregador de telefone movido a energia solar">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Carregador de telefone movido a energia solar</h6>
+                <p class="text-muted small mb-1">Nada como energia limpa</p>
+                <p class="fw-bold">R$28,99</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/skincare_a_base_de_plantas.html"
+              title="skincare_a_base_de_plantas">
+              <img src="./src/assets/img/products/plant_based_skincare_set.png" class="card-img-top rounded-3" alt="Vela de cera de soja">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Conjunto de skincare à base de plantas</h6>
+                <p class="text-muted small mb-1">Cuide-se de forma ecológica</p>
+                <p class="fw-bold">R$45,99</p>
+              </div>
+            </a>
+          </div>
+          <div class="col-12 col-sm-6 col-md-3">
+            <a class="card h-100 border-0 text-decoration-none" href="./src/pages/products/tapete_de_ioga_sustentavel.html"
+              title="Tapete de ioga de cortiça sustentável">
+              <img src="./src/assets/img/products/Sustainable_Cork_Yoga_Mat.png" class="card-img-top rounded-3" alt="Tapete de ioga de cortiça sustentável">
+              <div class="card-body px-0">
+                <h6 class="card-title mb-1">Tapete de ioga de cortiça sustentável</h6>
+                <p class="text-muted small mb-1">Exercite-se naturalmente</p>
+                <p class="fw-bold">R$35,99</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromocoes" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromocoes" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</section>
+
 
 
   <section class="py-5 shop_by_category">
@@ -210,6 +388,96 @@
       </div>
     </div>
   </section>
+
+  <section class="fashion-section py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold">Moda Consciente</h2>
+    <p class="text-muted">Vista-se de forma sustentável com nossa coleção de roupas e acessórios produzidos de forma ética.</p>
+
+    <div class="row g-3 mt-4">
+      <!-- Imagem principal -->
+      <div class="col-md-8">
+        <div class="item-card main-card">
+          <img src="./src/assets/img/shop_by_category/fashion.png" class="img-fluid rounded" alt="Modelo vestindo roupa sustentável">
+          <div class="fashion-overlay">
+            <h5 class="fw-bold">Coleção Orgânica Básica</h5>
+            <p>Peças atemporais para um guarda-roupa sustentável.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagens menores -->
+      <div class="col-md-4 d-flex flex-column gap-3">
+        <a class="item-card" href="./src/pages/products/camiseta_de_algodao_organico.html">
+          <img src="./src/assets/img/products/organic-cotton-tshirt.png" class="img-fluid rounded" alt="Camiseta de algodão orgânico">
+        </a>
+        <a class="item-card" href="./src/pages/products/sacola_algodao_organico.html">
+          <img src="./src/assets/img/products/Organic_Cotton_Tote_Bag.png" class="img-fluid rounded" alt="Sacola de algodão orgânico">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="beauty-section py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold">Natural Beauty</h2>
+    <p class="text-muted">Nutra sua pele e alma com nossos produtos de beleza limpos e livres de crueldade.</p>
+
+    <div class="row g-3 mt-4">
+      <!-- Imagens menores -->
+      <div class="col-md-4 d-flex flex-column gap-3">
+        <a class="item-card" href="./src/pages/products/skincare_a_base_de_plantas.html">
+          <img src="./src/assets/img/products/plant_based_skincare_set.png" class="img-fluid rounded" alt="Conjunto de Skincare à base de plantas">
+        </a>
+        <a class="item-card" href="./src/pages/products/escova_de_bambu.html">
+          <img src="./src/assets/img/products/Bamboo_Toothbrush.png" class="img-fluid rounded" alt="Escova de dentes de bambu">
+        </a>
+      </div>
+      <!-- Imagem principal -->
+      <div class="col-md-8">
+        <div class="item-card main-card">
+          <img src="./src/assets/img/shop_by_category/beauty-wellness.png" class="img-fluid rounded" alt="Modelo vestindo roupa sustentável">
+          <div class="fashion-overlay">
+            <h5 class="fw-bold">Cuidados com a pele à base de ervas</h5>
+            <p>Ingredientes puros para uma pele radiante</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <section class="home-section py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold">Casa e Vida sustentáveis</h2>
+    <p class="text-muted">Crie um espaço consciente com nossa decoração e produtos ecologicamente corretos.</p>
+
+    <div class="row g-3 mt-4">
+      <!-- Imagem principal -->
+      <div class="col-md-8">
+        <div class="item-card main-card">
+          <img src="./src/assets/img/shop_by_category/home-e-living.png" class="img-fluid rounded" alt="Modelo vestindo roupa sustentável">
+          <div class="fashion-overlay">
+            <h5 class="fw-bold">Cozinha sem desperdício</h5>
+            <p>Itens essenciais funcionais e bonitos para uma cozinha mais ecológica.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Imagens menores -->
+      <div class="col-md-4 d-flex flex-column gap-3">
+        <a class="item-card" href="./src/pages/products/detergente_ecologico.html">
+          <img src="./src/assets/img/products/Eco–Friendly_Laundry_Detergent.png" class="img-fluid rounded" alt="Detergente Ecológico">
+        </a>
+        <a class="item-card" href="./src/pages/products/vela_de_cera_de_soja.html">
+          <img src="./src/assets/img/products/Soy_Wax_Candle.png" class="img-fluid rounded" alt="Vela de Cera de Soja">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- Footer -->
   <footer class="bg-dark text-light pt-5 pb-3 fixed-bottom position-relative">

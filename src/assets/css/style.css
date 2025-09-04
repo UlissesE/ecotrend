@@ -19,7 +19,7 @@
   object-fit: cover;
 }
 
-.shop_by_category {
+.shop_by_category, .beauty-section {
   background-color: #f0fffb;
 }
 
@@ -133,4 +133,40 @@ details[open] summary::after {
 
 .one-star {
   width: 5%
+}
+
+
+.item-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.item-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.8);
+}
+
+.fashion-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  color: #fff;
+  text-align: left;
+  border-radius: 0 0 10px 10px;
+}
+
+.fashion-overlay h5 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.fashion-overlay p {
+  margin: 0;
+  font-size: 1.1rem;
 }
