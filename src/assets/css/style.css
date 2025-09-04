@@ -64,3 +64,51 @@
 .impact-section {
   background-color: #e8fbe8;
 }
+
+.faq {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.faq h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.faq details {
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 0.8rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none; /* remove o ícone padrão do navegador */
+}
+
+.faq summary::after {
+  content: "▼";
+  font-size: 0.9rem;
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(-180deg);
+}
+
+.faq p {
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  color: #555;
+}
