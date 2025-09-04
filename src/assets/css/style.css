@@ -7,27 +7,16 @@
   margin-right: 8px;
 }
 
-.hero-section {
-  position: relative;
-  height: 82vh;                 
-  margin: 0 2%;                  
-  border-radius: 15px;          
-  overflow: hidden;              
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
+.hero-section-img {
+  height: 82vh;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
 }
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url('../img/hero-background.png') no-repeat center;
-  background-size: cover;        
-  filter: brightness(0.3); 
-  z-index: -1;                   
+.hero-section-img2 {
+  height: 82vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .shop_by_category {
