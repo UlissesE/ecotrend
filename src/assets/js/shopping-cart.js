@@ -81,7 +81,7 @@ cart.forEach((item) => {
   }
 });
 
-// Atualiza subtotal e total
+
 document
   .querySelectorAll(
     "#subtotal, #frete, #total"
@@ -99,10 +99,15 @@ document.querySelectorAll(".input-qtd").forEach((input) => {
   input.addEventListener("change", function () {
     const id = this.getAttribute("data-id");
     const newQty = parseInt(this.value);
-    const cart = JSON.parse(localStorage.getItem("cart")) || [];
-    const item = cart.find((item) => item.id === id);
-    if (item && newQty > 0) {
-      item.quantity = newQty;
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    const itemIndex = cart.findIndex((item) => item.id === id);
+
+    if (itemIndex !== -1) {
+      if (newQty > 0) {
+        cart[itemIndex].quantity = newQty;
+      } else {
+        cart.splice(itemIndex, 1);
+      }
       localStorage.setItem("cart", JSON.stringify(cart));
       location.reload();
     }
