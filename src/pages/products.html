@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -11,368 +11,349 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand d-flex align-items-center" href="../../index.html">
-                <img src="../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo" class="logo-img">
-                <span class="fw-bold">EcoTrend</span>
-            </a>
-
-            <!-- Botão mobile -->
-            <button title="buttom" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Menu -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav gap-4">
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="#">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="./our-mission.html">Sobre nós</a></li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="./our-mission.html#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Ícones à direita -->
-            <div class="d-flex align-items-center gap-4">
-                <a title="busca" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                        class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                    </svg></a>
-                <a title="sacole" href="./shopping-cart.html" class="text-decoration-none"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                    </svg></a>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                </svg>
-            </div>
-        </div>
-    </nav>
-
-    <section class="py-5">
-        <div class="container">
-
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb" class="mb-3">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Produtos</li>
-                </ol>
-            </nav>
-
-            <h3 class="fw-bold mb-4">Produtos</h3>
-
-            <div class="row">
-                <!-- Sidebar -->
-                <div class="col-md-3 mb-4 ">
-                    <aside class="sticky-top">
-                        <h6 class="fw-semibold mb-3">Categorias</h6>
-                        <div class="d-flex flex-wrap gap-2 mb-4">
-                            <button class="btn btn-sm btn-success rounded-pill">Tudo</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Vestimenta</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Beleza</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Bens domésticos</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Green Tech</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Ofertas</button>
-                        </div>
-
-                        <h6 class="fw-semibold mb-3">Ordenar por</h6>
-                        <div class="d-flex flex-wrap gap-2">
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Destaque</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Menor ao Maior</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Maior ao Menor</button>
-                            <button class="btn btn-sm btn-outline-secondary rounded-pill">Mais recentes</button>
-                        </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../../index.html">
+                    <img src="../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo EcoTrend" class="logo-img">
+                    <span class="fw-bold">EcoTrend</span>
+                </a>
+                <button title="Menu mobile" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="#">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="./our-mission.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-semibold"
+                                href="./our-mission.html#contact">Contato</a></li>
+                    </ul>
                 </div>
-                </aside>
-
-                <!-- Produtos -->
-                <div class="col-md-9">
-                    <div class="row g-4">
-
-                        <!-- Produto -->
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/camiseta_de_algodao_organico.html">
-                                <img src="../assets/img/products/organic-cotton-tshirt.png"
-                                    class="card-img-top rounded-3" alt="Camiseta de algodão orgânico">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Camiseta de algodão orgânico</h6>
-                                    <p class="text-muted small mb-1">
-                                        Durável e ecológico
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$24,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/escova_de_bambu.html">
-                                <img src="../assets/img/products/Bamboo_Toothbrush.png" class="card-img-top rounded-3"
-                                    alt="Escova de dentes de bambu natural">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Escova de dentes de bambu natural</h6>
-                                    <p class="text-muted small mb-1">
-                                        Cuidados bucais sustentáveis
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R4,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/garrafa_de_vidro_reciclado.html">
-                                <img src="../assets/img/products/recycled_glass_bottle.png"
-                                    class="card-img-top rounded-3" alt="Garrafa de água de vidro reciclado">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Garrafa de água de vidro reciclado</h6>
-                                    <p class="text-muted small mb-1">
-                                        Hidratação sustentável é a chave
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$24,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/carregador_energia_solar.html">
-                                <img src="../assets/img/products/solar_powered_charger.png"
-                                    class="card-img-top rounded-3" alt="Carregador de telefone movido a energia solar">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Carregador de telefone movido a energia solar</h6>
-                                    <p class="text-muted small mb-1">
-                                        Nada como energia limpa
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$28,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/detergente_ecologico.html">
-                                <img src="../assets/img/products/Eco–Friendly_Laundry_Detergent.png"
-                                    class="card-img-top rounded-3" alt="Detergente para roupa ecológico">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Detergente para roupa ecológico</h6>
-                                    <p class="text-muted small mb-1">
-                                        Faz bem às suas roupas e à Natureza
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$12,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/tapete_de_ioga_sustentavel.html">
-                                <img src="../assets/img/products/Sustainable_Cork_Yoga_Mat.png"
-                                    class="card-img-top rounded-3" alt="Tapete de ioga de cortiça sustentável">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Tapete de ioga de cortiça sustentável</h6>
-                                    <p class="text-muted small mb-1">
-                                        Exercite-se naturalmente
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$35,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/capa_de_celular_sustentavel.html">
-                                <img src="../assets/img/products/biodegradable_phone_case.png"
-                                    class="card-img-top rounded-3" alt="Capa de celular biodegradável">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Capa de celular biodegradável</h6>
-                                    <p class="text-muted small mb-1">
-                                        Embeleza seu celular e protege a natureza
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$25,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/eco_tote_bag.html">
-                                <img src="../assets/img/products/upcycled_denim_tote_bag.png"
-                                    class="card-img-top rounded-3" alt="Eco Tote Bag de Jeans Upcycled">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Eco Tote Bag de Jeans Upcycled</h6>
-                                    <p class="text-muted small mb-1">
-                                        Durável e ecológico
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$29,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/skincare_a_base_de_plantas.html">
-                                <img src="../assets/img/products/plant_based_skincare_set.png"
-                                    class="card-img-top rounded-3" alt="Conjunto de skincare à base de plantas">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Conjunto de skincare à base de plantas</h6>
-                                    <p class="text-muted small mb-1">
-                                        Cuide-se de forma ecológica
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$45,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/vela_de_cera_de_soja.html">
-                                <img src="../assets/img/products/Soy_Wax_Candle.png" class="card-img-top rounded-3"
-                                    alt="Vela de cera de soja">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Vela de cera de soja</h6>
-                                    <p class="text-muted small mb-1">
-                                        Feito à mão com aromas naturais
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$15,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/garrafa_de_aco_inoxidavel.html">
-                                <img src="../assets/img/products/Stainless_Steel_Water_Bottle.png"
-                                    class="card-img-top rounded-3" alt="Garrafa de água de aço inoxidável">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Garrafa de água de aço inoxidável</h6>
-                                    <p class="text-muted small mb-1">
-                                        Mantenha-se hidratado de forma sustentável
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$14,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-6 col-lg-4">
-                            <a class="card border-2 border-light h-100 text-decoration-none"
-                                href="./products/sacola_algodao_organico.html">
-                                <img src="../assets/img/products/Organic_Cotton_Tote_Bag.png"
-                                    class="card-img-top rounded-3" alt="Sacola de algodão orgânico">
-                                <div class="card-body px-2">
-                                    <h6 class="card-title mb-1">Sacola de algodão orgânico</h6>
-                                    <p class="text-muted small mb-1">
-                                        Durável e ecológico
-                                    </p>
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <p class="fw-bold">R$19,99</p>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                                            class="bi bi-bag" viewBox="0 0 16 16">
-                                            <path
-                                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                <div class="d-flex align-items-center gap-4">
+                    <a title="busca" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="black" class="bi bi-search" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></a>
+                    <a title="sacola" href="./shopping-cart.html" class="text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag"
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg>
+                    </a>
+                    <a title="perfil" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                            class="bi bi-person" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
+                    </a>
                 </div>
-
             </div>
-        </div>
-    </section>
+        </nav>
+    </header>
 
+    <main>
+        <section class="py-5">
+            <div class="container">
 
-    <!-- Footer -->
+                <!-- Breadcrumb -->
+                <nav aria-label="breadcrumb" class="mb-3">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../../index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Produtos</li>
+                    </ol>
+                </nav>
+
+                <h1 class="fw-bold mb-4">Produtos</h1>
+                <div class="row">
+                    <!-- Sidebar -->
+                    <aside class="col-md-3 mb-4 sticky-top" aria-label="Categorias e ordenação">
+                        <section>
+                            <h2 class="fw-semibold mb-3 fs-6">Categorias</h2>
+                            <div class="d-flex flex-wrap gap-2 mb-4">
+                                <button class="btn btn-sm btn-success rounded-pill">Tudo</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Vestimenta</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Beleza</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Bens domésticos</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Green Tech</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Ofertas</button>
+                            </div>
+                        </section>
+                        <section>
+                            <h2 class="fw-semibold mb-3 fs-6">Ordenar por</h2>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Destaque</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Menor ao
+                                    Maior</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Preço: Maior ao
+                                    Menor</button>
+                                <button class="btn btn-sm btn-outline-secondary rounded-pill">Mais recentes</button>
+                            </div>
+                        </section>
+                    </aside>
+
+                    <!-- Produtos -->
+                    <section class="col-md-9" aria-label="Lista de produtos">
+                        <div class="row g-4">
+                            <!-- Produto -->
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/camiseta_de_algodao_organico.html">
+                                    <img src="../assets/img/products/organic-cotton-tshirt.png"
+                                        class="card-img-top rounded-3" alt="Camiseta de algodão orgânico">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Camiseta de algodão orgânico</h2>
+                                        <p class="text-muted small mb-1">Durável e ecológico</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$24,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/escova_de_bambu.html">
+                                    <img src="../assets/img/products/Bamboo_Toothbrush.png"
+                                        class="card-img-top rounded-3" alt="Escova de dentes de bambu natural">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Escova de dentes de bambu natural</h2>
+                                        <p class="text-muted small mb-1">Cuidados bucais sustentáveis</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R4,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/garrafa_de_vidro_reciclado.html">
+                                    <img src="../assets/img/products/recycled_glass_bottle.png"
+                                        class="card-img-top rounded-3" alt="Garrafa de água de vidro reciclado">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Garrafa de água de vidro reciclado</h2>
+                                        <p class="text-muted small mb-1">Hidratação sustentável é a chave</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$24,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/carregador_energia_solar.html">
+                                    <img src="../assets/img/products/solar_powered_charger.png"
+                                        class="card-img-top rounded-3"
+                                        alt="Carregador de telefone movido a energia solar">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Carregador de telefone movido a energia solar
+                                        </h2>
+                                        <p class="text-muted small mb-1">Nada como energia limpa</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$28,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/detergente_ecologico.html">
+                                    <img src="../assets/img/products/Eco–Friendly_Laundry_Detergent.png"
+                                        class="card-img-top rounded-3" alt="Detergente para roupa ecológico">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Detergente para roupa ecológico</h2>
+                                        <p class="text-muted small mb-1">Faz bem às suas roupas e à Natureza</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$12,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/tapete_de_ioga_sustentavel.html">
+                                    <img src="../assets/img/products/Sustainable_Cork_Yoga_Mat.png"
+                                        class="card-img-top rounded-3" alt="Tapete de ioga de cortiça sustentável">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Tapete de ioga de cortiça sustentável</h2>
+                                        <p class="text-muted small mb-1">Exercite-se naturalmente</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$35,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/capa_de_celular_sustentavel.html">
+                                    <img src="../assets/img/products/biodegradable_phone_case.png"
+                                        class="card-img-top rounded-3" alt="Capa de celular biodegradável">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Capa de celular biodegradável</h2>
+                                        <p class="text-muted small mb-1">Embeleza seu celular e protege a natureza</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$25,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/eco_tote_bag.html">
+                                    <img src="../assets/img/products/upcycled_denim_tote_bag.png"
+                                        class="card-img-top rounded-3" alt="Eco Tote Bag de Jeans Upcycled">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Eco Tote Bag de Jeans Upcycled</h2>
+                                        <p class="text-muted small mb-1">Durável e ecológico</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$29,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/skincare_a_base_de_plantas.html">
+                                    <img src="../assets/img/products/plant_based_skincare_set.png"
+                                        class="card-img-top rounded-3" alt="Conjunto de skincare à base de plantas">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Conjunto de skincare à base de plantas</h2>
+                                        <p class="text-muted small mb-1">Cuide-se de forma ecológica</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$45,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/vela_de_cera_de_soja.html">
+                                    <img src="../assets/img/products/Soy_Wax_Candle.png" class="card-img-top rounded-3"
+                                        alt="Vela de cera de soja">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Vela de cera de soja</h2>
+                                        <p class="text-muted small mb-1">Feito à mão com aromas naturais</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$15,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/garrafa_de_aco_inoxidavel.html">
+                                    <img src="../assets/img/products/Stainless_Steel_Water_Bottle.png"
+                                        class="card-img-top rounded-3" alt="Garrafa de água de aço inoxidável">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Garrafa de água de aço inoxidável</h2>
+                                        <p class="text-muted small mb-1">Mantenha-se hidratado de forma sustentável</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$14,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+
+                            <article class="col-6 col-lg-4">
+                                <a class="card border-2 border-light h-100 text-decoration-none"
+                                    href="./products/sacola_algodao_organico.html">
+                                    <img src="../assets/img/products/Organic_Cotton_Tote_Bag.png"
+                                        class="card-img-top rounded-3" alt="Sacola de algodão orgânico">
+                                    <div class="card-body px-2">
+                                        <h2 class="card-title mb-1 fs-6">Sacola de algodão orgânico</h2>
+                                        <p class="text-muted small mb-1">Durável e ecológico</p>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="fw-bold">R$19,99</p>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                                                class="bi bi-bag" viewBox="0 0 16 16" aria-hidden="true">
+                                                <path
+                                                    d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="bg-dark text-light pt-5 pb-3 fixed-bottom position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">EcoTrend</h5>
+                <section class="col-md-3 mb-4" aria-label="Sobre EcoTrend">
+                    <h2 class="fw-bold fs-5">EcoTrend</h2>
                     <p class="small">Produtos sustentáveis para um mundo melhor.</p>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Privacidade</a></li>
@@ -380,9 +361,9 @@
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Transporte</a></li>
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Retorno</a></li>
                     </ul>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Links</h5>
+                </section>
+                <nav class="col-md-3 mb-4" aria-label="Links rápidos">
+                    <h2 class="fw-bold fs-5">Links</h2>
                     <ul class="list-unstyled">
                         <li><a href="./products.html" class="text-light text-decoration-none small">Produtos</a></li>
                         <li><a href="./shopping-cart.html" class="text-light text-decoration-none small">Carrinho</a>
@@ -391,10 +372,9 @@
                         </li>
                         <li><a href="./our-mission.html#faq" class="text-light text-decoration-none small">FAQ</a></li>
                     </ul>
-                </div>
-
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Siga-nos nas redes</h5>
+                </nav>
+                <aside class="col-md-3 mb-4" aria-label="Redes sociais">
+                    <h2 class="fw-bold fs-5">Siga-nos nas redes</h2>
                     <div class="d-flex gap-3">
                         <a href="#" class="text-light fs-5" title="Facebook"><img
                                 src="../assets/img/icons/facebook-icon.png" alt="Facebook" class="icon"></a>
@@ -403,9 +383,9 @@
                         <a href="#" class="text-light fs-5" title="Instagram"><img
                                 src="../assets/img/icons/instagram-icon.png" alt="Instagram" class="icon"></a>
                     </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Newsletter</h5>
+                </aside>
+                <section class="col-md-3 mb-4" aria-label="Newsletter">
+                    <h2 class="fw-bold fs-5">Newsletter</h2>
                     <p class="small">Inscreva-se em nossa newsletter para receber as últimas notícias e atualizações.
                     </p>
                     <form class="d-flex">
@@ -413,7 +393,7 @@
                             placeholder="Coloque seu email aqui.">
                         <button type="submit" class="btn btn-success btn-sm">Inscrever</button>
                     </form>
-                </div>
+                </section>
             </div>
             <hr class="border-secondary">
             <div class="text-center small">

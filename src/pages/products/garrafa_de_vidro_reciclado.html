@@ -11,287 +11,248 @@
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
-        <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand d-flex align-items-center" href="../../../index.html">
-                <img src="../../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo" class="logo-img">
-                <span class="fw-bold">EcoTrend</span>
-            </a>
-
-            <!-- Botão mobile -->
-            <button title="buttom" class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Menu -->
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav gap-4">
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="../products.html">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="../our-mission.html">Sobre nós</a></li>
-                    <li class="nav-item"><a class="nav-link fw-semibold" href="../our-mission.html#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Ícones à direita -->
-            <div class="d-flex align-items-center gap-4">
-                <a title="busca" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
-                        class="bi bi-search" viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
-                    </svg></a>
-                <a title="sacola" href="../shopping-cart.html" class="text-decoration-none"><svg
-                        xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
-                    </svg></a>
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person"
-                    viewBox="0 0 16 16">
-                    <path
-                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                </svg>
-            </div>
-        </div>
-    </nav>
-
-    <section class="product-page py-5">
-        <div class="container">
-            <div class="row">
-                <!-- Product Images -->
-                <div class="col-md-6">
-                    <img src="../../assets/img/products/recycled_glass_bottle.png"
-                        class="img-fluid rounded shadow-sm mb-3" alt="Organic Cotton T-Shirt">
-
-                    <!-- Thumbnails -->
-                    <div class="d-flex gap-2">
-                        <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail" width="80"
-                            alt="">
-                        <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail" width="80"
-                            alt="">
-                        <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail" width="80"
-                            alt="">
-                        <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail" width="80"
-                            alt="">
-                    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="../../../index.html">
+                    <img src="../../assets/img/icons_header/ecotrend_favicon.webp" alt="Logo EcoTrend" class="logo-img">
+                    <span class="fw-bold">EcoTrend</span>
+                </a>
+                <button title="Menu mobile" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="../products.html">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link fw-semibold" href="../our-mission.html">Sobre nós</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link fw-semibold"
+                                href="../our-mission.html#contact">Contato</a></li>
+                    </ul>
                 </div>
-
-                <!-- Product Info -->
-                <div class="col-md-6">
-                    <!-- Breadcrumb -->
-                    <nav aria-label="breadcrumb" class="mb-3">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
-                            <li class="breadcrumb-item"><a href="../products.html">Produtos</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Produto</li>
-                        </ol>
-                    </nav>
-
-                    <h3 class="fw-bold">Garrafa de água de vidro reciclado</h3>
-                    <p class="text-muted">Feita 100% de vidro obtido através de materiais reciclados.</p>
-
-                    <!-- Ratings -->
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="text-warning me-2">★★★★☆</div>
-                        <small>(4.5) - 120 reviews</small>
-                    </div>
-
-                    <!-- Price -->
-                    <h4 class="fw-bold mb-5">R$24,99</h4>
-
-                    <!-- Colors -->
-                    <div class="mb-5">
-                        <span class="fw-semibold">Cor: </span>
-                        <button title="color-dark" type="button"
-                            class="btn btn-outline-light rounded-circle p-3 me-2"></button>
-                        <button title="color-dark" type="button"
-                            class="btn btn-outline-dark rounded-circle p-3 me-2"></button>
-                        <button title="color-green" type="button"
-                            class="btn btn-outline-success rounded-circle p-3 me-2"></button>
-                        <button title="color-blue" type="button"
-                            class="btn btn-outline-primary rounded-circle p-3 me-2"></button>
-                        <button title="color-red" type="button"
-                            class="btn btn-outline-danger rounded-circle p-3 me-2"></button>
-                    </div>
-
-                    <a href="#" id="addToCartBtn"
-                        data-product='{"id":"garrafa_de_vidro_reciclado","name":"Garrafa de água de vidro reciclado","price":24.99,"image":"../assets/img/products/recycled_glass_bottle.png","quantity":1}'>
-                        <button class="btn btn-dark px-4">Adicionar à sacola</button>
+                <div class="d-flex align-items-center gap-4">
+                    <a title="busca" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="black" class="bi bi-search" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg></a>
+                    <a title="sacola" href="../shopping-cart.html" class="text-decoration-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-bag"
+                            viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg>
+                    </a>
+                    <a title="perfil" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black"
+                            class="bi bi-person" viewBox="0 0 16 16" aria-hidden="true">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                        </svg>
                     </a>
                 </div>
             </div>
+        </nav>
+    </header>
 
-            <!-- Product Details -->
-            <hr class="my-5">
-            <h5 class="fw-bold">Detalhes do Produto</h5>
-            <table class="table">
-                <tr>
-                    <td class="fw-semibold">Material</td>
-                    <td>Vidro. Tampa de metal.</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold">Atributos Sustentáveis</td>
-                    <td>Certificado GOTS, corantes de baixo impacto, certificado de comércio justo</td>
-                </tr>
-                <tr>
-                    <td class="fw-semibold">Instruções de cuidados</td>
-                    <td>Higienização diária com água morna, detergente neutro e uma escova macia é essencial, secando-a
-                        virada para baixo em local arejado.</td>
-                </tr>
-            </table>
-
-            <!-- Avaliações de clientes -->
-            <h5 class="fw-bold mt-5 mb-5">Avaliações de clientes</h5>
-            <div class="row">
-                <!-- Score -->
-                <div class="col-md-3 text-center">
-                    <h1 class="fw-bold">4.5</h1>
-                    <div class="text-warning">★★★★☆</div>
-                    <small class="text-muted">Com base em 120 avaliações</small>
+    <main>
+        <section class="product-page py-5">
+            <div class="container">
+                <div class="row">
+                    <aside class="col-md-6" aria-label="Imagens do produto">
+                        <img src="../../assets/img/products/recycled_glass_bottle.png"
+                            class="img-fluid rounded shadow-sm mb-3" alt="Garrafa de água de vidro reciclado">
+                        <div class="d-flex gap-2">
+                            <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail"
+                                width="80" alt="">
+                            <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail"
+                                width="80" alt="">
+                            <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail"
+                                width="80" alt="">
+                            <img src="../../assets/img/products/recycled_glass_bottle.png" class="img-thumbnail"
+                                width="80" alt="">
+                        </div>
+                    </aside>
+                    <section class="col-md-6" aria-label="Informações do produto">
+                        <nav aria-label="breadcrumb" class="mb-3">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../../../index.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="../products.html">Produtos</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Garrafa de água de vidro
+                                    reciclado</li>
+                            </ol>
+                        </nav>
+                        <h1 class="fw-bold">Garrafa de água de vidro reciclado</h1>
+                        <p class="text-muted">Feita 100% de vidro obtido através de materiais reciclados.</p>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="text-warning me-2">★★★★☆</div>
+                            <small>(4.5) - 120 avaliações</small>
+                        </div>
+                        <h2 class="fw-bold mb-5 fs-3">R$24,99</h2>
+                        <div class="mb-5">
+                            <span class="fw-semibold">Cor: </span>
+                            <button title="cor-clara" type="button"
+                                class="btn btn-outline-light rounded-circle p-3 me-2"></button>
+                            <button title="cor-preta" type="button"
+                                class="btn btn-outline-dark rounded-circle p-3 me-2"></button>
+                            <button title="cor-verde" type="button"
+                                class="btn btn-outline-success rounded-circle p-3 me-2"></button>
+                            <button title="cor-azul" type="button"
+                                class="btn btn-outline-primary rounded-circle p-3 me-2"></button>
+                            <button title="cor-vermelha" type="button"
+                                class="btn btn-outline-danger rounded-circle p-3 me-2"></button>
+                        </div>
+                        <a href="#" id="addToCartBtn"
+                            data-product='{"id":"garrafa_de_vidro_reciclado","name":"Garrafa de água de vidro reciclado","price":24.99,"image":"../assets/img/products/recycled_glass_bottle.png","quantity":1}'>
+                            <button class="btn btn-dark px-4">Adicionar à sacola</button>
+                        </a>
+                    </section>
                 </div>
 
-                <!-- Distribution -->
-                <div class="col-md-9">
-                    <div class="d-flex align-items-center mb-1">
-                        <small class="me-2">5 estrelas</small>
-                        <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning five-stars"></div>
-                        </div>
-                        <small class="ms-2">40%</small>
+                <hr class="my-5">
+                <section aria-label="Detalhes do produto">
+                    <h2 class="fw-bold">Detalhes do Produto</h2>
+                    <table class="table">
+                        <tr>
+                            <td class="fw-semibold">Material</td>
+                            <td>Vidro. Tampa de metal.</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-semibold">Atributos Sustentáveis</td>
+                            <td>Certificado GOTS, corantes de baixo impacto, certificado de comércio justo</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-semibold">Instruções de cuidados</td>
+                            <td>Higienização diária com água morna, detergente neutro e uma escova macia é essencial,
+                                secando-a virada para baixo em local arejado.</td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section aria-label="Avaliações de clientes" class="mt-5 mb-5">
+                    <h2 class="fw-bold">Avaliações de clientes</h2>
+                    <div class="row">
+                        <aside class="col-md-3 text-center" aria-label="Nota média">
+                            <h3 class="fw-bold">4.5</h3>
+                            <div class="text-warning">★★★★☆</div>
+                            <small class="text-muted">Com base em 120 avaliações</small>
+                        </aside>
+                        <aside class="col-md-9" aria-label="Distribuição das avaliações">
+                            <div class="d-flex align-items-center mb-1">
+                                <small class="me-2">5 estrelas</small>
+                                <div class="progress flex-grow-1">
+                                    <div class="progress-bar bg-warning five-stars"></div>
+                                </div>
+                                <small class="ms-2">40%</small>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                                <small class="me-2">4 estrelas</small>
+                                <div class="progress flex-grow-1">
+                                    <div class="progress-bar bg-warning four-stars"></div>
+                                </div>
+                                <small class="ms-2">30%</small>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                                <small class="me-2">3 estrelas</small>
+                                <div class="progress flex-grow-1">
+                                    <div class="progress-bar bg-warning three-stars"></div>
+                                </div>
+                                <small class="ms-2">15%</small>
+                            </div>
+                            <div class="d-flex align-items-center mb-1">
+                                <small class="me-2">2 estrelas</small>
+                                <div class="progress flex-grow-1">
+                                    <div class="progress-bar bg-warning two-stars"></div>
+                                </div>
+                                <small class="ms-2">10%</small>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <small class="me-2">1 estrela</small>
+                                <div class="progress flex-grow-1">
+                                    <div class="progress-bar bg-warning one-star"></div>
+                                </div>
+                                <small class="ms-2">5%</small>
+                            </div>
+                        </aside>
                     </div>
-                    <div class="d-flex align-items-center mb-1">
-                        <small class="me-2">4 estrelas</small>
-                        <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning four-stars"></div>
-                        </div>
-                        <small class="ms-2">30%</small>
+                    <div class="mt-4">
+                        <article class="d-flex mb-4" aria-label="Avaliação de Roberto da Silva">
+                            <img src="avatar1.jpg" class="rounded-circle me-3" width="50" alt="Roberto da Silva">
+                            <div>
+                                <h4 class="mb-1 fs-6">Roberto da Silva <span class="text-warning">★★★★★</span></h4>
+                                <p class="mb-1">Garrafa boa e resistente. Ótimo recipiente.</p>
+                                <small class="text-muted">Publicado em 19 de agosto de 2025</small>
+                            </div>
+                        </article>
+                        <article class="d-flex mb-4" aria-label="Avaliação de André">
+                            <img src="avatar2.jpg" class="rounded-circle me-3" width="50" alt="André">
+                            <div>
+                                <h4 class="mb-1 fs-6">André <span class="text-warning">★★★★☆</span></h4>
+                                <p class="mb-1">Ótima qualidade e caimento. Aprecio a abordagem ecológica.</p>
+                                <small class="text-muted">Publicado em 22 de junho de 2025</small>
+                            </div>
+                        </article>
                     </div>
-                    <div class="d-flex align-items-center mb-1">
-                        <small class="me-2">3 estrelas</small>
-                        <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning three-stars"></div>
-                        </div>
-                        <small class="ms-2">15%</small>
-                    </div>
-                    <div class="d-flex align-items-center mb-1">
-                        <small class="me-2">2 estrelas</small>
-                        <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning two-stars"></div>
-                        </div>
-                        <small class="ms-2">10%</small>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <small class="me-2">1 estrela</small>
-                        <div class="progress flex-grow-1">
-                            <div class="progress-bar bg-warning one-star"></div>
-                        </div>
-                        <small class="ms-2">5%</small>
-                    </div>
-                </div>
+                </section>
+
+                <section class="row mt-5" aria-label="Outros produtos">
+                    <h2 class="fw-bold mb-5">Outros Produtos</h2>
+                    <article class="col-12 col-sm-6 col-md-3">
+                        <a class="card h-100 border-0 text-decoration-none" href="./garrafa_de_aco_inoxidavel.html">
+                            <img src="../../assets/img/products/Stainless_Steel_Water_Bottle.png"
+                                class="card-img-top rounded-3" alt="Garrafa de água de aço inoxidável">
+                            <div class="card-body px-0">
+                                <h3 class="card-title mb-1 fs-6">Garrafa de água de aço inoxidável</h3>
+                                <p class="text-muted small mb-1">Mantenha-se hidratado de forma sustentável</p>
+                                <p class="fw-bold">R$14,99</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-12 col-sm-6 col-md-3">
+                        <a class="card h-100 border-0 text-decoration-none" href="./detergente_ecologico.html">
+                            <img src="../../assets/img/products/Eco–Friendly_Laundry_Detergent.png"
+                                class="card-img-top rounded-3" alt="Detergente para roupa ecológico">
+                            <div class="card-body px-0">
+                                <h3 class="card-title mb-1 fs-6">Detergente para roupa ecológico</h3>
+                                <p class="text-muted small mb-1">Faz bem às suas roupas e à Natureza</p>
+                                <p class="fw-bold">R$12,99</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-12 col-sm-6 col-md-3">
+                        <a class="card h-100 border-0 text-decoration-none" href="./skincare_a_base_de_plantas.html">
+                            <img src="../../assets/img/products/plant_based_skincare_set.png"
+                                class="card-img-top rounded-3" alt="Conjunto de skincare à base de plantas">
+                            <div class="card-body px-0">
+                                <h3 class="card-title mb-1 fs-6">Conjunto de skincare à base de plantas</h3>
+                                <p class="text-muted small mb-1">Cuide-se de forma ecológica</p>
+                                <p class="fw-bold">R$45,99</p>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="col-12 col-sm-6 col-md-3">
+                        <a class="card h-100 border-0 text-decoration-none" href="./vela_de_cera_de_soja.html">
+                            <img src="../../assets/img/products/Soy_Wax_Candle.png" class="card-img-top rounded-3"
+                                alt="Vela de cera de soja">
+                            <div class="card-body px-0">
+                                <h3 class="card-title mb-1 fs-6">Vela de cera de soja</h3>
+                                <p class="text-muted small mb-1">Feito à mão com aromas naturais</p>
+                                <p class="fw-bold">R$15,99</p>
+                            </div>
+                        </a>
+                    </article>
+                </section>
             </div>
+        </section>
+    </main>
 
-            <!-- Review List -->
-            <div class="mt-4">
-                <div class="d-flex mb-4">
-                    <img src="avatar1.jpg" class="rounded-circle me-3" width="50" alt="">
-                    <div>
-                        <h6 class="mb-1">Roberto da Silva<span class="text-warning">★★★★★</span></h6>
-                        <p class="mb-1">Garrafa boa e resistente. Ótimo recipiente.
-                        </p>
-                        <small class="text-muted">Publicado em 19 de agosto de 2025</small>
-                    </div>
-                </div>
-                <div class="d-flex mb-4">
-                    <img src="avatar2.jpg" class="rounded-circle me-3" width="50" alt="">
-                    <div>
-                        <h6 class="mb-1">André <span class="text-warning">★★★★☆</span></h6>
-                        <p class="mb-1">Ótima qualidade e caimento. Aprecio a abordagem ecológica.</p>
-                        <small class="text-muted">Publicado em 22 de junho de 2025</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <h5 class="fw-bold mb-5">Outros Produtos</h5>
-
-                <div class="col-12 col-sm-6 col-md-3">
-                    <a class="card h-100 border-0 text-decoration-none" href="./garrafa_de_aco_inoxidavel.html">
-                        <img src="../../assets/img/products/Stainless_Steel_Water_Bottle.png"
-                            class="card-img-top rounded-3" alt="Garrafa de aço inoxidável">
-                        <div class="card-body px-0">
-                            <h6 class="card-title mb-1">
-                                Garrafa de água de aço inoxidável
-                            </h6>
-                            <p class="text-muted small mb-1">
-                                Mantenha-se hidratado de forma sustentável
-                            </p>
-                            <p class="fw-bold">R$14,99</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-3">
-                    <a class="card h-100 border-0 text-decoration-none" href="./detergente_ecologico.html">
-                        <img src="../../assets/img/products/Eco–Friendly_Laundry_Detergent.png"
-                            class="card-img-top rounded-3" alt="Detergente para roupa ecológico">
-                        <div class="card-body px-0">
-                            <h6 class="card-title mb-1">
-                                Detergente para roupa ecológico
-                            </h6>
-                            <p class="text-muted small mb-1">
-                                Faz bem às suas roupas e à Natureza
-                            </p>
-                            <p class="fw-bold">R$12,99</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-3">
-                    <a class="card h-100 border-0 text-decoration-none" href="./skincare_a_base_de_plantas.html">
-                        <img src="../../assets/img/products/plant_based_skincare_set.png" class="card-img-top rounded-3"
-                            alt="Conjunto de skincare à base de plantas">
-                        <div class="card-body px-0">
-                            <h6 class="card-title mb-1">
-                                Conjunto de skincare à base de plantas
-                            </h6>
-                            <p class="text-muted small mb-1">
-                                Cuide-se de forma ecológica
-                            </p>
-                            <p class="fw-bold">R$45,99</p>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-md-3">
-                    <a class="card h-100 border-0 text-decoration-none" href="./vela_de_cera_de_soja.html">
-                        <img src="../../assets/img/products/Soy_Wax_Candle.png" class="card-img-top rounded-3"
-                            alt="Bamboo Toothbrush">
-                        <div class="card-body px-0">
-                            <h6 class="card-title mb-1">
-                                Vela de cera de soja
-                            </h6>
-                            <p class="text-muted small mb-1">
-                                Feito à mão com aromas naturais
-                            </p>
-                            <p class="fw-bold">R$15,99</p>
-                        </div>
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="bg-dark text-light pt-5 pb-3 mt-5">
         <div class="container">
             <div class="row">
-                <!-- Coluna 1 -->
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">EcoTrend</h5>
+                <section class="col-md-3 mb-4" aria-label="Sobre EcoTrend">
+                    <h2 class="fw-bold fs-5">EcoTrend</h2>
                     <p class="small">Produtos sustentáveis para um mundo melhor.</p>
                     <ul class="list-unstyled">
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Privacidade</a></li>
@@ -299,38 +260,31 @@
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Transporte</a></li>
                         <li><a href="#" class="text-light text-decoration-none small">Políticas de Retorno</a></li>
                     </ul>
-                </div>
-
-                <!-- Coluna 2 -->
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Links</h5>
+                </section>
+                <nav class="col-md-3 mb-4" aria-label="Links rápidos">
+                    <h2 class="fw-bold fs-5">Links</h2>
                     <ul class="list-unstyled">
-                        <li><a href="../products.html" class="text-light text-decoration-none small">Produtos</a>
-                        </li>
+                        <li><a href="../products.html" class="text-light text-decoration-none small">Produtos</a></li>
                         <li><a href="../shopping-cart.html" class="text-light text-decoration-none small">Carrinho</a>
                         </li>
-                        <li><a href="../our-mission.html" class="text-light text-decoration-none small">Sobre
-                                nós</a></li>
+                        <li><a href="../our-mission.html" class="text-light text-decoration-none small">Sobre nós</a>
+                        </li>
                         <li><a href="../our-mission.html#faq" class="text-light text-decoration-none small">FAQ</a></li>
                     </ul>
-                </div>
-
-                <!-- Coluna 3 -->
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Siga-nos nas redes</h5>
+                </nav>
+                <aside class="col-md-3 mb-4" aria-label="Redes sociais">
+                    <h2 class="fw-bold fs-5">Siga-nos nas redes</h2>
                     <div class="d-flex gap-3">
-                        <a title="facebook" href="#" class="text-light fs-5"><i class="bi bi-facebook"><img
-                                    src="../../assets/img/icons/facebook-icon.png" alt="" class="icon"></i></a>
-                        <a title="twitter" href="#" class="text-light fs-5"><i class="bi bi-twitter"><img
-                                    src="../../assets/img/icons/twitter-icon.png" alt="" class="icon"></i></a>
-                        <a title="instagram" href="#" class="text-light fs-5"><i class="bi bi-instagram"><img
-                                    src="../../assets/img/icons/instagram-icon.png" alt="" class="icon"></i></a>
+                        <a title="facebook" href="#" class="text-light fs-5"><img
+                                src="../../assets/img/icons/facebook-icon.png" alt="Facebook" class="icon"></a>
+                        <a title="twitter" href="#" class="text-light fs-5"><img
+                                src="../../assets/img/icons/twitter-icon.png" alt="Twitter" class="icon"></a>
+                        <a title="instagram" href="#" class="text-light fs-5"><img
+                                src="../../assets/img/icons/instagram-icon.png" alt="Instagram" class="icon"></a>
                     </div>
-                </div>
-
-                <!-- Coluna 4 -->
-                <div class="col-md-3 mb-4">
-                    <h5 class="fw-bold">Newsletter</h5>
+                </aside>
+                <section class="col-md-3 mb-4" aria-label="Newsletter">
+                    <h2 class="fw-bold fs-5">Newsletter</h2>
                     <p class="small">Inscreva-se em nossa newsletter para receber as últimas notícias e atualizações.
                     </p>
                     <form class="d-flex">
@@ -338,13 +292,9 @@
                             placeholder="Coloque seu email aqui.">
                         <button type="button" class="btn btn-success btn-sm">Inscrever</button>
                     </form>
-                </div>
+                </section>
             </div>
-
-            <!-- Linha de separação -->
             <hr class="border-secondary">
-
-            <!-- Direitos autorais -->
             <div class="text-center small">
                 © 2025 EcoTrend. Todos os direitos reservados.
             </div>
